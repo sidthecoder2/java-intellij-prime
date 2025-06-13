@@ -12,7 +12,7 @@ public class sumOfElementsInArray {
 //        }
 //        System.out.println("Sum is "+ sum);
 
-
+        //AS NEW CHANGES
         //THIS IS TO PRINT MIN NO IN ARRAY
 //        int min = Integer.MAX_VALUE;
 //        for(int number: numbers){
