@@ -9,6 +9,7 @@ public class learnConstructors {
 
          Complex res = num1.add(num2);
          res.print();
+        System.out.println(num1);
     }
 }
 
@@ -31,6 +32,8 @@ class Complex{
     }
 
     Complex add(Complex num2){
+        System.out.println(this); //here actually it will print of reference jo call karega method ko
+        this.print();
         return new Complex(a+ num2.a, b+ num2.b);
     }
 }
