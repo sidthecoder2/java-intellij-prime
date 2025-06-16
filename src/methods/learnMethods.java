@@ -5,7 +5,7 @@ public class learnMethods {
     public static void main(String[] args) {
         int a = 9;
         int b = 6;
-        int avg = avg(a,b);
+        int avg = avg(9,2);
     }
 
     public static int avg(int a, int b){
