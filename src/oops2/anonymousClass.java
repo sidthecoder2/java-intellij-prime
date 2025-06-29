@@ -1,6 +1,7 @@
 package oops2;
 
 public class anonymousClass {
+
     SuperInterface obj1 = new SuperInterface() {    //here this is anonymous class using interface
         @Override
         public void interfaceMethod() {
