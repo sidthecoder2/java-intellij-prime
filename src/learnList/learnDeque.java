@@ -12,5 +12,6 @@ public class learnDeque {
         deque1.offerFirst(30);
 
         System.out.println(deque1);
+        System.out.println(deque1);
     }
 }
