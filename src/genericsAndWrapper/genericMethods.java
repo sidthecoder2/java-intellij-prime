@@ -14,7 +14,7 @@ public class genericMethods {
         //m1.doubleData(customClass);    //as we have not bounded after bounding it will give error
     }
 
-    <E extends Number> void doubleData(E data){   //this is bounding of generics
+    <E extends Number> void doubleData(E data){   //this is boundi ng of generics
         System.out.println(data);
     }
 
