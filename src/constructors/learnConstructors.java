@@ -32,7 +32,7 @@ class Complex{
     }
 
     Complex add(Complex num2){
-        System.out.println(this); //here actually it will print of reference jo call karega method ko
+        System.out.println(this); //here actually it will print of reference ya address jo call karega method ko
         this.print();
         return new Complex(a+ num2.a, b+ num2.b);
     }
