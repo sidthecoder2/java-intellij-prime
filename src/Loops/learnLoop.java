@@ -7,9 +7,10 @@ public class learnLoop {
         Scanner sc =  new Scanner(System.in);
         int number = sc.nextInt();
         int sum = 0;
+        //what we want to do here is sum of even numbers in a range
         for(int i=0; i<=number; i++){
             if(i%2==0)
-                sum += 2*i;
+                sum += i;
         }
         System.out.println("The sum of even numbers in given range" + number + " is: " + sum );
     }

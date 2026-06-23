@@ -13,6 +13,7 @@ public class staticLearn {
 
     public static void main(String[] args) {
         printHello();
+        //printHi(); // this will give error because printHi is not static method and we are trying to access it in static method main
         staticLearn s1 = new staticLearn();
         s1.printHi();
     }

@@ -11,7 +11,7 @@ public class exception1 {
             // in catch if it there ok otherwise it will throw exception
             int num = 5/0;
         } catch (Exception e) {
-            System.out.println("Not allowed!");
+            System.out.println("Not allowed!" + e.getMessage());
         } //if you want to handle exceptions seperately ArrayOutofBoundException | NullPointer etc
         
 

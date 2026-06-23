@@ -12,11 +12,11 @@ public class learnMathMethods {
         System.out.println(sub);
 
 
-//        String newSentence = jaiHo.toUpperCase();
-//
-//        System.out.println(jaiHo);
-//        System.out.println(newSentence);
-//
-//        System.out.println(Math.min(b,a));
+        String newSentence = jaiHo.toUpperCase();
+
+        System.out.println(jaiHo);
+        System.out.println(newSentence);
+
+        System.out.println(Math.min(b,a));  //math function has lot of functions in built which we can use directly
     }
 }

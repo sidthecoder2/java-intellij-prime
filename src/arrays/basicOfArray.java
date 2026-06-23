@@ -7,6 +7,7 @@ public class basicOfArray {
         /* or do it togehther as
          int age[] = new int[5];
          */
+
 //        age[0] = 5;
 //        age[1] = 2;
 //        for(int i=0;i<5;i++) {
